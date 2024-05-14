@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.main-box {
+    border: 5px dashed red;
+    height: 30rem;
+    width: 30rem;
+    background-color: yellow;
+    color: blue;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border: 3px solid green;
+    height: auto;
+    width: auto;
+}
+
+td {
+    border: 3px solid green;
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
